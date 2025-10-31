@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+#hud {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  z-index: 10;
+}
+#scope {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: -100px;
+  margin-top: -100px;
+  background: url('assets/scope.png') no-repeat center;
+  background-size: contain;
+  pointer-events: none;
+}
+.hidden {
+  display: none;
+}
